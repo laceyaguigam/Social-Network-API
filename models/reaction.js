@@ -1,18 +1,7 @@
+const { Schema, model } = require('mongoose');
 
-{
-    // define columns
-    reactionId: {
-      
-    },
-    reactionBody: {
-     
-    },
-    tusername: {
-      
 
-    },
-    createAt: {
-      
-    },
-    
-  },
+
+// need reactionID, reactionBody, username, createdAt
+
+
