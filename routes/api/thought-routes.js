@@ -1,5 +1,7 @@
 const router = require('express').Router();
 
+
+
 // Set up GET all and POST at /api/thought
 router
   .route('/')
