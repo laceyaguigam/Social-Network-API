@@ -1,4 +1,10 @@
+const express = require('express');
+const routes = require('./routes');
+// import sequelize connection
+const sequelize = require('./config/connection')
 
+const app = express();
+const PORT = process.env.PORT || 3001;
 
 // WHEN I enter the command to invoke the application
 // THEN my server is started and the Mongoose models are synced to the MongoDB database
