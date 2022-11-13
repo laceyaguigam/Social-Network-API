@@ -7,11 +7,14 @@ Create an API for a social network web application that allows users to share th
 # Built With
 
 ## MongoDB
-## Express.js
-## Mongoose ODM
+
+
+-Express.js
+-Mongoose ODM
 
 # Website
 
 
 # Contributions
 
+Made with ❤️ by Lacey Aguigam
