@@ -5,6 +5,7 @@ const apiRoutes = require('./api');
 
 router.use('/thought', thoughtRoutes);
 router.use('/user', userRoutes);
+router.use ('/api', apiRoutes);
 
 router.use((req, res) => {
   res.send("Wrong Route!")
