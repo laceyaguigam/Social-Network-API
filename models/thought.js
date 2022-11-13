@@ -1,18 +1,12 @@
+const { Schema, model } = require('mongoose');
 
-{
-    // define columns
-    thoughtText: {
-      
-    },
-    createAt: {
-     
-    },
-    username: {
-      
 
-    },
-    reactions: {
-      
-    },
-    
-  },
+
+// need thoughtText, createAt, username, reactions
+// schema settings: reactionCount retrieves the length of the user's reactions
+
+
+
+
+
+
