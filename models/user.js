@@ -1,18 +1,6 @@
+const { Schema, model } = require('mongoose');
 
-{
-    // define columns
-    username: {
-      
-    },
-    email: {
-     
-    },
-    thoughts: {
-      
 
-    },
-    friends: {
-      
-    },
-    
-  },
+
+// need username, email, thoughts, friends
+// schema settings: friendCount retrieves the length of the user's friends array
