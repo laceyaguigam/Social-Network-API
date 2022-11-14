@@ -1,11 +1,11 @@
-const thought = require(`../models/thought`)
+const Thought = require(`../models/thought`)
 
 
 const thoughtController = {
     //methods 
   // get all thoughts
   getAllThoughts(req, res) {
-    Thoughts.find({})
+    Thought.find({})
       .then(dbThoughtData => res.json(dbThoughtData))
       .catch(err => {
         console.log(err);

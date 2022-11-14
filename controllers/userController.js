@@ -1,11 +1,11 @@
-const user = require(`../models/user`)
+const User = require(`../models/user`)
 
 
 const userController = {
     //methods 
       // get all users
       getAllUser(req, res) {
-        User.find({})
+        User.find()
           .then(dbUserData => res.json(dbUserData))
           .catch(err => {
             console.log(err);
@@ -41,7 +41,7 @@ const userController = {
 // update user by id
     updateUser({ params, body }, res) {
         User.findOneAndUpdate({ _id: params.id }, body, { new: true })
-        .then(dbUsesrData => {
+        .then(dbUserData => {
             if (!dbUserData) {
             res.status(404).json({ message: 'No user found with this id!' });
             return;
